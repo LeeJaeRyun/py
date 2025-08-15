@@ -9,4 +9,9 @@
 - 'A'.lower() = a
 - 'a'.upper() = A
 
-
+## 1158.py
+리스트는 비어있으면 False 비어있지않으면 True
+- if arr: 
+- 해석 : 만약 arr이 비어있지 않으면 실행
+- if not arr:
+- 해석 : 만약 arr이 비어있으면 실행
