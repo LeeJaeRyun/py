@@ -42,3 +42,7 @@
 - pop(): 맨 앞의 데이터 뽑기
 - peek(): 맨 앞의 데이터 보기
 - isEmpty(): 스택이 비어있는지 안 비었는지 여부 반환해주기
+- list를 이용한 실제 사용 방법
+  - stack = []
+  - stack.append(4)
+  - stack.pop()
