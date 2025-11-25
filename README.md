@@ -82,3 +82,7 @@
   - ord('a') -> 97
 - chr() 숫자를 문자로 변환
   - chr(97) -> 'a'
+
+## 10798.py
+- words = [input() for _ in range(5)] 
+  - 5번 input()을 호출해서 단어 5개를 리스트에 넣음
