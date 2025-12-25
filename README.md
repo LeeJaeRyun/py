@@ -113,3 +113,9 @@
 - 리스트는 append 필요
 - input() -> 입력 받을 때마다 인터프리터 레벨에서 계속 처리 -> 오버헤드가 많음 -> 느림
 - sys.stdin.readline() -> 문자열만 그대로 가져오는 기능 -> 빠름
+
+## 20437.py
+- defaultdict -> key가 없을 경우 기본값으로 list를 자동 생성해줌. 
+- 일반 dict는 key가 존재하지 않을 경우 append하는게 불가능하나 defaultdict는 존재하지 않아도 자동생성해서 append 가능
+- defaultdict(list) -> 인덱스 구할 때 사용
+- Counter(word) -> word에서 무슨 문자가 몇 개 나왔는지 한번에 구할 때 사용
