@@ -119,3 +119,7 @@
 - 일반 dict는 key가 존재하지 않을 경우 append하는게 불가능하나 defaultdict는 존재하지 않아도 자동생성해서 append 가능
 - defaultdict(list) -> 인덱스 구할 때 사용
 - Counter(word) -> word에서 무슨 문자가 몇 개 나왔는지 한번에 구할 때 사용
+
+## 2179.py
+- sys.exit() -> 파이썬 프로그램 자체를 끝내주는 강제 종료문
+- 정렬 후 양옆끼리 한번씩 비교 => $O(nlogn)$
